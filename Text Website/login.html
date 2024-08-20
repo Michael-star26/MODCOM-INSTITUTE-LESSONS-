@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="js/bootstrap.js"></script>
+        <style>
+            .nav-item:hover {
+                background-color: rgb(143, 226, 9);
+            }
+
+            /* hover only on the nav items */
+            .active-link {
+                background-color: rgb(16, 37, 228);
+            }
+
+            .form-border {
+                box-shadow: 0 0 30px rgb(33, 5, 248);
+
+                border-radius: 20px;
+                padding: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <section>
+            <nav class="navbar navbar-expand-md navbar-dark bg-info p-4">
+                <a href="#" class="navbar-brand">iBags Collects <img src="images/brand1.jpg" alt="" height="40"
+                        width="80"></a>
+                <!-- toggle button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarcollapse"
+                    id="btn1"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarcollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-link nav-item">Home</a>
+                        <!-- drop down -->
+                        <div class="dropdown">
+                            <a href="#" class="  nav-item nav-link dropdown-toggle" data-bs-toggle="dropdown">School
+                                Bags</a>
+                            <div class="dropdown-menu">
+
+                                <a href="#" class="dropdown-item">Small Size</a>
+                                <a href="#" class="dropdown-item">Medium Size</a>
+                                <a href="#" class="dropdown-item">Large Size</a>
+                                <a href="#" class="dropdown-item">Extra Large Size</a>
+                                </select>
+                            </div>
+                        </div>
+
+                        <a href="ladies.html" class="nav-item nav-link">Ladies B
+                            ags</a>
+                        <a href="#" class="nav-item nav-link ">Laptop Bags</a>
+                        <!-- nav item to the right -->
+                        <!-- <li class="nav-item" -->
+                        <!-- <li class="nav-item"> -->
+                        <!-- </li> -->
+                    </div>
+                    <!-- search bar -->
+                    <form action="" class="form-group d-flex">
+                        <input type="text" placeholder="search Bags" class="form-control">
+                        <button type="submit" class="btn btn-success">Search</button>
+                    </form>
+                    <a href="login.html" class="btn btn-primary nav-item active-link nav-nav-link ms-auto">Login</a>
+                </div>
+
+
+            </nav>
+        </section>
+        <br><br><br>
+        <!-- End of navbar -->
+        <!-- login form -->
+        <section class="row">
+            <div class="col-md-6">
+                <h2 class="text-primary text-center">Login Here</h2>
+                &nbsp; &nbsp; <form action="" class="form-group">
+                    &nbsp; &nbsp; <fieldset class="form-border">
+                        <input type="text" placeholder="Enter user name" class="form-control"><br><br>
+                        <input type="email" placeholder="Enter user email" class="form-control"><br><br>
+                        <input type="password" placeholder="Enter user password" class="form-control"><br><br>
+                        <center><input type="submit" value="Login" class="btn btn-primary w-60">
+                        </center>
+                    </fieldset>
+                </form><br><br>
+            </div>
+            <div class="col-md-6">
+
+            </div>
+        </section>
+        <!-- end of section -->
+
+        <section class="row bg-secondary border-bottom p-4 mt-1">
+
+            <div class="container-fluid">
+                <div class="footer ms-3">
+                    <span>Get Connected with us on Social media</span>
+                    <section class="row">
+                        <div class="col-md-4">
+                            <h4 class=" text-white">Management Team</h4>
+                            <img src="images/team1.jpg" alt="" height="50" width="50">
+                            <img src="images/team2.png" alt="" height="50" width="50" class="me-3">
+                            <img src="images/team3.png" alt="" height="50" width="50" class="me-3">
+                        </div>
+
+                        <div class="col-md-4">
+                            <h3>Vision</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem id cumque ex asperiores
+                                atque
+                                facilis! Molestias sequi deleniti mollitia quod, repellendus voluptatem tempore
+                                ducimus
+                                corporis
+                                nemo, eligendi, id iste autem.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Contacts</h4>
+                            <a href="#" class="fa fa-home"><b class="text-warning">Haven court Waiyaki
+                                    Way</b></a><br>
+                            <a href="#" class="fa fa-phone"><b class="text-warning">+254701136880</b></a><br>
+
+                            <a href="#" class="fa fa-envelope"><b class="text-warning">@info.com</b></a><br>
+
+                        </div>
+                        <p class="text-center">Developed By Michael</p>
+                        <p class="text-center">Copyright &copy; 2023</p>
+
+                    </section>
+
+                </div>
+        </section>
+        </div>
+    </body>
+
+</html>

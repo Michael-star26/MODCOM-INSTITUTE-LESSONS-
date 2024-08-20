@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <style>
+            .nav-item:hover {
+                background-color: rgb(42, 9, 226);
+            }
+
+            /* hover only on the nav items */
+            .active-link {
+                background-color: rgb(23, 228, 16);
+            }
+        </style>
+    </head>
+    <!-- create a site called test site.It's about bags -->
+    <div class="container-fluid">
+        <!-- section for the navbar -->
+        <section class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-md navbar-dark bg-info p-4">
+                    <a href="#" class="navbar-brand">iBags Collects <img src="images/brand1.jpg" alt="" height="40"
+                            width="80"></a>
+                    <!-- toggle button -->
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                        data-bs-target="#navbarcollapse" id="btn1"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarcollapse">
+                        <div class="navbar-nav">
+                            <a href="ladies.html" class="active-link nav-link" id="active-link nav-item">Home</a>
+                            <!-- drop down -->
+                            <div class="dropdown">
+                                <a href="#" class="nav-item nav-link dropdown-toggle" data-bs-toggle="dropdown">School
+                                    Bags</a>
+                                <div class="dropdown-menu">
+
+                                    <a href="#" class="dropdown-item">Small Size</a>
+                                    <a href="#" class="dropdown-item">Medium Size</a>
+                                    <a href="#" class="dropdown-item">Large Size</a>
+                                    <a href="#" class="dropdown-item">Extra Large Size</a>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <a href="ladies.html" class="nav-item nav-link">Ladies B
+                                ags</a>
+                            <a href="#" class="nav-item nav-link ">Laptop Bags</a>
+                            <!-- nav item to the right -->
+                            <!-- <li class="nav-item" -->
+                            <!-- <li class="nav-item"> -->
+                            <!-- </li> -->
+                        </div>
+                        <!-- search bar -->
+                        <form action="" class="form-group d-flex">
+                            <input type="text" placeholder="search Bags" class="form-control">
+                            <button type="submit" class="btn btn-success">Search</button>
+                        </form>
+                        <a href="login.html" class="btn btn-primary nav-nav-link nav-item ms-auto">Login</a>
+                    </div>
+
+
+                </nav>
+                <!-- End Of Navbar -->
+            </div>
+        </section>
+        <!-- End of Section -->
+        <!-- create a section with three columns; heading and paragraph; smart neat,easy -->
+        <br>
+        <!-- carousel -->
+        <section class="row">
+            <div class="col-md-12">
+                <div class="carousel slide" data-bs-ride="carousel" id="mycarousel">
+                    <!-- indicators -->
+                    <ol class="carousel-indicators">
+                        <li class="active" data-bs-slide-to="0" data-bs-target="#mycarousel"></li>
+
+                        <li class="active" data-bs-slide-to="1" data-bs-target="#mycarousel"></li>
+
+                        <li class="active" data-bs-slide-to="2" data-bs-target="#mycarousel"></li>
+
+                        <li class="active" data-bs-slide-to="3" data-bs-target="#mycarousel"></li>
+
+
+
+                    </ol>
+
+                    <!-- carousel inner -contains carousel items -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img src="images/slide1.jpeg" alt="" class="w-100 d-block">
+                            <!-- carousel caption -->
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Heading for the first Slide</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos in, deserunt
+                                    iste assumenda doloribus commodi tempora mollitia! Maxime necessitatibus sequi rerum
+                                    accusantium, dignissimos molestias repudiandae temporibus non error! Sapiente, illo?
+                                </p>
+
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="images/slide2.jpeg" alt="" class="w-100 d-block">
+                            <!-- carousel caption -->
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Heading for the second Slide</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos in, deserunt
+                                    iste assumenda doloribus commodi tempora mollitia! Maxime necessitatibus sequi rerum
+                                    accusantium, dignissimos molestias repudiandae temporibus non error! Sapiente, illo?
+                                </p>
+
+                            </div>
+                        </div>
+
+                        <!-- end of second item -->
+                        <!-- third item -->
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="images/slide3.jpg" alt="" class="w-100 d-block">
+                            <!-- carousel caption -->
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Heading for the Third Slide</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos in, deserunt
+                                    iste assumenda doloribus commodi tempora mollitia! Maxime necessitatibus sequi rerum
+                                    accusantium, dignissimos molestias repudiandae temporibus non error! Sapiente, illo?
+                                </p>
+
+                            </div>
+                        </div>
+                        <!-- end of third item -->
+                        <!-- fourth item -->
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="images/slide4.jpg" alt="" class="w-100 d-block">
+                            <!-- carousel caption -->
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Heading for the fourth Slide</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos in, deserunt
+                                    iste assumenda doloribus commodi tempora mollitia! Maxime necessitatibus sequi rerum
+                                    accusantium, dignissimos molestias repudiandae temporibus non error! Sapiente, illo?
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of carousel inner -->
+                    <a href="#mycarousel" class="carousel-control-prev" data-bs-slide="Prev"><span
+                            class="carousel-control-prev-icon"></span></a>
+                    <a href="#mycarousel" class="carousel-control-next" data-bs-slide="next"><span
+                            class="carousel-control-next-icon"></span></a>
+
+
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <section class="row">
+                <div class="text-info col-sm-4">
+                    <h2>Smart</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus quae quod magnam molestias
+                        porro? Quam blanditiis provident hic sed ut reiciendis eveniet quisquam quae. Quam maiores amet
+                        iste tempore magni.</p>
+                </div>
+                <div class="text-danger col-sm-4">
+                    <h2>Neat</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui fugiat, exercitationem quae hic
+                        nulla molestiae enim. Quidem, repellendus suscipit! Et fugit, adipisci mollitia ratione
+                        explicabo totam aut dignissimos nihil dicta.</p>
+                </div>
+                <div class=" text-primary col-sm-4">
+                    <h2>Easy</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ullam et dignissimos animi
+                        optio tempore, ad corrupti inventore eveniet eos sapiente, vel aut, aliquid iusto nihil tempora
+                        saepe rem amet.</p>
+                </div>
+
+            </section>
+            <!-- second section -->
+            <h2 style="text-decoration: overline;" class="text-success text-center mt-2">Latest Brands</h2>
+            <section class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="images/ladies1.jpg" class="img-fluid" alt="">
+                        <!-- card body -->
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3 class="text-info">Laptop Bag</h3>
+                            </div>
+                            <div class=".card-text text-info">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quas deleniti sequi
+                                    voluptas adipisci nemo,
+                                    eaque laudantium? Dolore, voluptatum molestias ratione dolorem praesentium error
+                                    molestiae commodi tempore
+                                    rem deserunt repellat?</p>
+                            </div>
+                            <b><i>Cost:KSH.3,000</i></b>
+                        </div>
+                        <!-- End of card body -->
+                        <div class="card-footer">
+                            <a href="" class="btn btn-info w-75">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="images/brand4.jpg" class="img-fluid" alt="">
+                        <!-- card body -->
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3 class="text-danger">Ladies Bag</h3>
+                            </div>
+                            <div class=".card-text">
+                                <p class="text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quas
+                                    deleniti sequi voluptas adipisci nemo,
+                                    Eos quas deleniti sequi voluptas adipisci
+                                    rem deserunt repellat?</p>
+                            </div>
+                            <b><i>Cost:KSH.3,000</i></b>
+                        </div>
+                        <!-- End of card body -->
+                        <div class="card-footer">
+                            <a href="" class="btn btn-danger w-75">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="images/brand2.jpeg" class="img-fluid" alt="">
+                        <!-- card body -->
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3 class="text-primary">Long Strap Bag</h3>
+                            </div>
+                            <div class=".card-text">
+                                <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+                                    quas deleniti sequi voluptas adipisci nemo, eaque laudantium? Dolore, voluptatum
+                                    molestias ratione dolorem praesentium error molestiae commodi tempore rem deserunt
+                                    repellat?</p>
+                            </div>
+                            <b><i>Cost:KSH.3,000</i></b>
+                        </div>
+                        <!-- End of card body -->
+                        <div class="card-footer">
+                            <a href="" class="btn btn-primary w-75">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </section><br>
+            <!-- third section -->
+            <h2 style="text-decoration:dotted overline;color: green;" class="text-center">Latest news</h2>
+            <section class="row">
+                <div class="col-md-3">
+                    <h4 class="text-center bg-secondary text-warning" style="text-decoration: blue dotted overline;">
+                        Business News</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad ipsa expedita maiores! Animi
+                        laudantium nemo soluta veniam fuga quasi voluptatem, placeat eum ducimus, assumenda adipisci
+                        architecto. Voluptas odit quae numquam!</p>
+                </div>
+                <!-- Education -->
+                <!-- Technology -->
+                <!-- politics -->
+
+
+                <div class="col-md-3">
+                    <h4 class="text-center bg-secondary text-warning" style="text-decoration: blue dotted overline;">
+                        Business News
+                    </h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad ipsa expedita maiores! Animi
+                        laudantium nemo
+                        soluta veniam fuga quasi voluptatem, placeat eum ducimus, assumenda adipisci architecto.
+                        Voluptas odit quae
+                        numquam!</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h4 class="text-center bg-secondary text-warning" style="text-decoration: blue dotted overline;">
+                        Business News
+                    </h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad ipsa expedita maiores! Animi
+                        laudantium nemo
+                        soluta veniam fuga quasi voluptatem, placeat eum ducimus, assumenda adipisci architecto.
+                        Voluptas odit quae
+                        numquam!</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h4 class="text-center bg-secondary text-warning" style="text-decoration: blue dotted overline;">
+                        Business News
+                    </h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad ipsa expedita maiores! Animi
+                        laudantium nemo
+                        soluta veniam fuga quasi voluptatem, placeat eum ducimus, assumenda adipisci architecto.
+                        Voluptas odit quae
+                        numquam!</p>
+                </div>
+            </section>
+            <!-- Fourth Section -->
+            <!-- Categories -->
+            <h2 style="text-decoration:dotted overline;color: green;" class="text-center">Our Categories </h2>
+            <section class="row bg-info">
+                <!-- first column -->
+                <div class="col-md-4">
+                    <div class="card bg-info">
+                        <!-- card header -->
+                        <div class="card-header">
+                            <h4 class="text-center">Ladies Bags</h4>
+                        </div>
+                        <!-- content -->
+                        <img src="images/ladies1.jpg" alt="" class="img-fluid rounded-circle " height="50%">
+                        <div class="card-body">
+                            <div class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero soluta dicta consequatur
+                                expedita harum non deleniti atque asperiores inventore ea.
+                            </div>
+                        </div>
+                        <!-- card footer -->
+                        <div class="card-footer">
+                            <center><a href="" class="btn btn-danger text-center">Read More</a></center>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-info">
+                        <!-- card header -->
+                        <div class="card-header">
+                            <h4 class="text-center">Laptop Bags</h4>
+                        </div>
+                        <!-- content -->
+                        <img src="images/laptop1.jpg" alt="" class="img-fluid rounded-circle" height="50%">
+                        <div class="card-body">
+                            <div class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero soluta dicta consequatur
+                                expedita harum
+                                non deleniti atque asperiores inventore ea.
+                            </div>
+                        </div>
+                        <!-- card footer -->
+                        <div class="card-footer">
+                            <center><a href="" class="btn btn-danger text-center">Read More</a></center>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-info">
+                        <!-- card header -->
+                        <div class="card-header">
+                            <h4 class="text-center">Hand Bags</h4>
+                        </div>
+                        <!-- content -->
+                        <img src="images/luxury.jpeg" alt="" class="img-fluid rounded-circle " height="50%">
+                        <div class="card-body">
+                            <div class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero soluta dicta consequatur
+                                expedita harum
+                                non deleniti atque asperiores inventore ea.
+                            </div>
+                        </div>
+                        <!-- card footer -->
+                        <div class="card-footer">
+                            <center><a href="" class="btn btn-danger">Read More</a></center>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div><br><br><br>
+    <!-- Bootstrap Footer -->
+    <div class="container-fluid">
+        <div class="footer ms-3">
+            <section class="row bg-secondary border-bottom p-4 mt-1">
+                <span>Get Connected with us on Social media</span>
+                <section class="row">
+                    <div class="col-md-4">
+                        <h4 class=" text-white">Management Team</h4>
+                        <img src="images/team1.jpg" alt="" height="50" width="50">
+                        <img src="images/team2.png" alt="" height="50" width="50" class="me-3">
+                        <img src="images/team3.png" alt="" height="50" width="50" class="me-3">
+                    </div>
+
+                    <div class="col-md-4">
+                        <h3>Vision</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem id cumque ex asperiores atque
+                            facilis! Molestias sequi deleniti mollitia quod, repellendus voluptatem tempore ducimus
+                            corporis
+                            nemo, eligendi, id iste autem.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Contacts</h4>
+                        <a href="#" class="fa fa-home"><b class="text-warning">Haven court Waiyaki
+                                Way</b></a><br>
+                        <a href="#" class="fa fa-phone"><b class="text-warning">+254701136880</b></a><br>
+
+                        <a href="#" class="fa fa-envelope"><b class="text-warning">@info.com</b></a><br>
+
+                    </div>
+                    <p class="text-center">Developed By Michael</p>
+                    <p class="text-center">Copyright &copy; 2023</p>
+                </section>
+            </section>
+
+        </div>
+    </div>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    </body>
+
+</html>

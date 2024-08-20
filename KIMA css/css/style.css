@@ -1,0 +1,117 @@
+body{
+    background-color: white
+}
+#heading1{
+    color: black;
+    text-align: center;
+    font-size: 45px;
+    text-transform: capitalize;
+   
+}
+#heading2{
+    color: brown;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline dashed;
+}
+#heading3{
+    color: rgb(255, 123, 0);
+    text-align: center;
+    font-size: 25px;
+}
+/* Style the paragraph */
+#paragraph1{
+    color: white;
+    font-size: 15px;
+    background-color: rgb(38, 4, 230);
+    text-transform: capitalize;
+
+}
+#paragraph2{
+    text-align: center;
+    text-transform: capitalize;
+    color: brown;
+    font-size: 15px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    color: white;
+    background-color: chartreuse;
+    padding: 15px;
+    font-size: 18px;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    background-color: green;
+}
+#active{
+color:black;
+background-color: green;
+} 
+#links{
+   background-color: brown; 
+   padding: 20px;
+   text-align: center;
+}
+#div{
+    text-align: center;
+    background-color: antiquewhite;
+    color: cornflowerblue;
+    padding: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
+#heading4{
+    color: white;
+    background-color: aqua;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 3px solid green;
+}
+#paragraph4{
+    color:darkcyan ;
+    line-height:25px ;
+    word-spacing: 15px;
+    letter-spacing: 5xp;
+    border:2px solid red;
+    padding: 10px;
+}
+/* lesson3 document */
+.heading1{
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.p1{
+    color: brown;
+    line-height: 18px;
+    letter-spacing: 5px;
+    /* short hand margin */
+    /* two values-the first applies to top and bottom, the second applies to left and right */
+    /* three values, first-top, second-left,third-bottom */
+    /* four values-first-top,second-left,third-bottom,fourth-right */
+    margin: 20px 30px 20px 3opx;
+}
+.design{
+    color: red;
+    background-color: dimgray;
+    font-size: 35px;
+    text-align: center;
+    border-top: 2px double yellowgreen;
+    padding: 10px;
+}
+.p2{
+    color: magenta;
+    background-color: white;
+    letter-spacing: 6px;
+    padding: 5px;
+    border: 3px double rgb(255, 0, 43);
+    
+}

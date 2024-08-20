@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        .box{
+            background: url("/images/car.png") no-repeat;
+            height: 200px;
+            width: 400px;
+            margin: 40px;
+            position: relative;
+            background-size: cover;
+            /* chrome,safari,opera */
+            -webkit-animation-name: webkit;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-iteration-count: 3 ;
+             /* Animation properties */
+             /* standard browsers */
+             /* animation-name: moveit;
+             animation-duration: 5s;
+             animation-iteration-count: 10;
+             animation-direction: alternate
+        } */
+        /* browsers that support erbkit */
+        @-webkit-keyframes moveit{
+            from{left: 0%;}
+            to{left:50%}
+        }
+        /* @keyframes moveit{
+            from{
+                left:0;}
+                to{left: 50%;}
+        } */
+       
+
+    </style>
+</head>
+<body>
+<!--    css aniamtion  -->
+<h2>Moving Car</h2>
+<div class="box"></div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eaque autem tenetur exercitationem laborum consectetur illo blanditiis temporibus ex atque a quidem esse, quis quia voluptate, laboriosam dolorem dolore vel.</p>
+</body>
+</html>

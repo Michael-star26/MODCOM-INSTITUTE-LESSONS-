@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Grid System</title>
+</head>
+<body>
+<!--grid System-the full width in grid system contains 12 columns  -->
+<!-- We can create divisions with columns in a row that add up to 12 columnsThe grid system include classes tosp[ecify the number of columns an element should span, classes for controlling size of elements on different screen sizes,and classes controlling the position of elements within the grid0]-->
+<!-- The available screen sizes are sm-small,md-medium,lg-large,xl-extra large,-xxl-extra extra large-->
+<!-- The syntax is .col-sm-1 -->
+<h2>Bootstrap Grid System</h2>
+<section class="row">
+    <div class="col-sm-12 bg-primary p-2 text-center mb2">col-sm-12</div>
+</section><br><br>
+<!-- two equal columns -->
+<section class="row">
+    <div class="col-sm-6 bg-success p-2 text-center">col-sm-6</div>
+    <div class="col-sm-6 bg-warning p-2 text-center">col-sm-6</div>
+</section><br><br>
+    <!-- Three equal columns -->
+    <section class="row">
+        <div class="col-sm-4 bg-warning text-center">col-sm-4</div>
+        <div class="col-sm-4 bg-danger text-center">col-sm-4</div>
+        <div class="col-sm-4 bg-success text-center">col-sm-4</div>
+</section><br><br>
+<section class="row">
+   <div class="col-sm-3 bg-danger p-2 text-center">col-sm-4</div>
+   <div class="col-sm-5 bg-info p-2 text-center">col-sm-3</div>
+   <div class="col-sm-4 bg-warning p-2 text-center">col-sm-5</div>
+</section><br><br>
+<!-- irregular divisions -->
+<section class="row">
+<div class="col-sm-5 bg-success p-2 text-center">col-sm-5</div>
+<div class="col-sm-4 bg-info p-2 text-center">col-sm-4</div>
+<div class="col-sm-3 bg-warning p-2 text-center">col-sm-3</div>
+</section><br><br>
+<!-- content inside column -->
+<div class="container">
+    <section class="row mt-2">
+        <div class="col-md-6">
+            <h2>This is Bootstrap grid System</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nam consectetur perferendis quaerat autem provident ipsam est corrupti voluptas at eum, cumque natus. Ea rerum laudantium in dolorum, suscipit asperiores!</p>
+        </div>
+        <div class="col-md-6">
+            <h2>I Love Bootstrap Grid System</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nam consectetur perferendis quaerat autem provident ipsam est corrupti voluptas at eum, cumque natus. Ea rerum laudantium in dolorum, suscipit asperiores!</p>
+        </div>
+    </section>
+    <!--second section -->
+    <section class="row mt-2">
+        <div class="col-md-7">
+            <!-- img -->
+            <img src="bike1.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-5">
+            <!-- img -->
+            <h2>Runners Up</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim velit consectetur eligendi vero consequuntur ad officia soluta veritatis nihil esse atque unde quas, cumque tenetur doloribus minus fuga itaque corporis.</p>
+        </div>
+    </section>
+    <!-- Third Section -->
+    <div class="row mt-2">
+        <div class="col-md-4">    
+       <h2>First place</h2>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores a optio laudantium repudiandae placeat aut eligendi nostrum maxime repellendus aliquam. Reprehenderit recusandae deserunt natus, aliquam similique ea consequuntur aliquid architecto!</p>
+        </div>
+        <div class="col-md-4">
+            <h2>Second place</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis officia quia voluptatum ea cumque sint eaque deleniti, mollitia corporis fugiat molestiae nihil eveniet nesciunt in! Rem dicta magni sint quaerat!</p>
+
+        </div>
+        <div class="col-md-4">
+            <h2>Third place</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis officia quia voluptatum ea cumque sint eaque deleniti, mollitia corporis fugiat molestiae nihil eveniet nesciunt in! Rem dicta magni sint quaerat!</p>
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-md-4">    
+       <h2>politics</h2>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis officia quia voluptatum ea cumque sint eaque deleniti, mollitia corporis fugiat molestiae nihil eveniet nesciunt in! Rem dicta magni sint quaerat!</p>
+       <button class="btn btn-danger text-white ">Read More</button>
+        </div>
+        <div class="col-md-4">
+            <h2>Economics</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis officia quia voluptatum ea cumque sint eaque deleniti, mollitia corporis fugiat molestiae nihil eveniet nesciunt in! Rem dicta magni sint quaerat!</p>
+            <button class="btn btn-danger text-white ">Read More</button>
+
+        </div>
+        <div class="col-md-4">
+            <h2>Sports</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis officia quia voluptatum ea cumque sint eaque deleniti, mollitia corporis fugiat molestiae nihil eveniet nesciunt in! Rem dicta magni sint quaerat!</p>
+            <button class="btn btn-danger text-white ">Read More</button>
+        </div>
+        <!-- Defining more than one screen sixe appearance-->
+        <section class="row mt-2">
+            <div class="col-md-4 col-sm-8">
+                <h2>This Is col-md-4 and col-sm-8</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum repellat minima molestiae ab tenetur voluptates? Deleniti tempore porro quibusdam minus quidem assumenda animi voluptatibus repellendus nemo odio, quam sit voluptate.</p>
+            </div>
+            <div class="col-sm-4 col-md-6"> <h2>This is col-sm-4 and col-md-6</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae unde quibusdam eveniet? Ratione, amet ullam corrupti voluptatibus, suscipit iusto sunt libero repellendus velit nemo unde consectetur impedit, beatae magnam aliquid.</p>
+            
+        </div>
+        </section>
+        <section class="row bg-secondary">
+<div class="col-md-4 bg-success text-light">
+    <h3>Sports</h3>
+    <img src="bike1.png" class="img-fluid" alt="">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, eos ipsam? Sint ullam, harum obcaecati nihil quidem aut eius quas amet quo reiciendis expedita est accusantium reprehenderit! Ipsam, possimus sequi?</p>
+    <a href="#" class="btn btn-warning p-2 w-100">Register Now</a>
+
+</div>
+<div class="col-md-4 bg-danger text-white">
+    <h3>Sports</h3>
+    <img src="bike1.png" class="img-fluid" alt="">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, eos ipsam? Sint ullam, harum obcaecati nihil quidem aut eius quas amet quo reiciendis expedita est accusantium reprehenderit! Ipsam, possimus sequi?</p>
+    <a href="#" class="btn btn-warning p-2 w-100">Register Now</a>
+
+</div>
+<div class="col-md-4 bg-info text-white">
+    <h3>Sports</h3>
+    <img src="bike1.png" class="img-fluid" alt="">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, eos ipsam? Sint ullam, harum obcaecati nihil quidem aut eius quas amet quo reiciendis expedita est accusantium reprehenderit! Ipsam, possimus sequi?</p>
+    <a href="#" class="btn btn-warning p-2 w-100">Register Now</a>
+</div>
+
+        </section>
+    </div>
+</div>
+<br><br><br>
+</body>
+</html>

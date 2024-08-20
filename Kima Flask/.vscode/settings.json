@@ -1,0 +1,8 @@
+{
+    "editor.inlayHints.fontSize": 10,
+    "editor.fontSize": 18,
+    "editor.codeLensFontSize": 20,
+    "editor.minimap.scale": 3,
+    "editor.tabSize": 4,
+    "editor.autoIndent": "advanced"
+}

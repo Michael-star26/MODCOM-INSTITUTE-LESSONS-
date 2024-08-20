@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <!-- Bootstrap Classes --> 
+    <!-- display  -has 6 levels;display-1-----display-6-->
+    <h2 class="display-1">Bootstrap Display</h2>
+    <h2 class="display-2">Bootstrap Display</h2>
+    <h2 class="display-3">Bootstrap Display</h2>
+    <h2 class="display-4">Bootstrap Display</h2>
+    <h2 class="display-5">Bootstrap Display</h2>
+    <h2 class="display-6">Bootstrap Display</h2>
+    <!-- Text Alignment -->
+    <!-- In Bootstrap we use text-[context] class where context includes start,center,end to define the alignmentto define the alignment -->
+    <p class="text-start">left aligned text on all viewpoint sizes</p>
+    <p class="text-center">center aligned text on all viewpoint sizes</p>
+    <p class="text-end">right aligned text on all viewpoint sizes</p>
+    <!-- Text Transform classes  -->
+    <!-- Bootstrap uses text-[context] to change the text case where context includes uppercase,lowercase,capitalize -->
+    <p class="text-uppercase">Text In UpperCase</p>
+    <p class="text-lowercase">Text In lowerCase</p>
+    <p class="text-capitalize">Text In capitalize</p>
+    <!-- text coloring -->
+    <!-- Bootstrap uses text-[context] to define text color. Context includes primary-blue, secondary-grey,info-cyan, success-green,danger-red,warning-yellow,dark-black,light-white,muted -->
+    <p class="text-primary">Primary: please Read The Instructions carefully before proceeding</p>
+    <p class="text-secondary">Secondary: please Read The Instructions carefully before proceeding</p>
+
+    <p class="text-info">info: please Read The Instructions carefully before proceeding</p>
+
+    <p class="text-success">success: please Read The Instructions carefully before proceeding</p>
+
+    <p class="text-danger">danger: please Read The Instructions carefully before proceeding</p>
+    <p class="text-warning">warning: please Read The Instructions carefully before proceeding</p>
+
+    <p class="text-dark">dark: please Read The Instructions carefully before proceeding</p>
+    <p class="text-light">light: please Read The Instructions carefully before proceeding</p>
+    <p class="text-muted">muted: please Read The Instructions carefully before proceeding</p>
+    <!-- background color -->
+    <!-- bootstrap uses bg-[context] to define background color;-context includes warning,primary,success -->
+    <p class="bg-primary text-success text-capitalize" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut deleniti ipsum quos a, exercitationem eum animi distinctio veritatis temporibus nam eaque officia reprehenderit omnis totam ipsam! Pariatur maxime perferendis consequuntur.</p>
+    <p class="bg-secondary text-danger text-capitalize">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut deleniti ipsum quos a, exercitationem eum animi distinctio veritatis temporibus nam eaque officia reprehenderit omnis totam ipsam! Pariatur maxime perferendis consequuntur.</p>
+
+    <p class="bg-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut deleniti ipsum quos a, exercitationem eum animi distinctio veritatis temporibus nam eaque officia reprehenderit omnis totam ipsam! Pariatur maxime perferendis consequuntur.</p>
+
+    <p class="bg-success">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut deleniti ipsum quos a, exercitationem eum animi distinctio veritatis temporibus nam eaque officia reprehenderit omnis totam ipsam! Pariatur maxime perferendis consequuntur.</p>
+
+    <p class="bg-danger">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut deleniti ipsum quos a, exercitationem eum animi distinctio veritatis temporibus nam eaque officia reprehenderit omnis totam ipsam! Pariatur maxime perferendis consequuntur.</p>
+
+    <p class="bg-warning">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut deleniti ipsum quos a, exercitationem eum animi distinctio veritatis temporibus nam eaque officia reprehenderit omnis totam ipsam! Pariatur maxime perferendis consequuntur.</p>
+
+    <p class="bg-dark">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut deleniti ipsum quos a, exercitationem eum animi distinctio veritatis temporibus nam eaque officia reprehenderit omnis totam ipsam! Pariatur maxime perferendis consequuntur.</p>
+    <p class="bg-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut deleniti ipsum quos a, exercitationem eum animi distinctio veritatis temporibus nam eaque officia reprehenderit omnis totam ipsam! Pariatur maxime perferendis consequuntur.</p>
+    <p class="bg-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut deleniti ipsum quos a, exercitationem eum animi distinctio veritatis temporibus nam eaque officia reprehenderit omnis totam ipsam! Pariatur maxime perferendis consequuntur.</p>
+    <!-- buttons -->
+    <button class="btn btn-outline-primary  " type="submit">Submit</button>
+    <button class="btn btn-outline-secondary " type="reset">reset</button>
+    
+    <button class="btn btn-outline-warning" type="submit">Sign In</button>
+    <button class="btn btn-outline-primary text-lowercase" type="submit">Forgot Password</button><br><br>
+   
+    <!-- Bootstrap badge -->
+    <!-- bootstrap uses class badge to create badges -->
+    <p>Status Of Approval <span class="badge bg-success"> Approved</span></p>
+    <p>Status Of Approval <span class="badge bg-danger"> Denied</span></p>
+    <p>Status Of Approval <span class="badge bg-warning"> pending</span></p>
+    <p>Nitifications <sup><span class="badge bg-primary">20</span></sup></p>
+    <!-- padding and margins -->
+<!-- margin- Bootstrap uses m[context< -level to define margins -->
+<!-- context includes s-start,e-end,-b-bottom. levels include 1-5 -->
+<!-- padding works the same way -->
+<p class="text-white bg-danger m-3 p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id suscipit pariatur minus vitae totam, quasi sapiente accusamus. Accusantium dicta excepturi laborum. Quasi veniam beatae aliquid ad eligendi eius minus reprehenderit.</p>
+<p class="text-white bg-danger me-3 p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id suscipit pariatur minus vitae totam, quasi sapiente accusamus. Accusantium dicta excepturi laborum. Quasi veniam beatae aliquid ad eligendi eius minus reprehenderit.</p>
+<p class="text-white bg-danger me-5 mt-5 pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id suscipit pariatur minus vitae totam, quasi sapiente accusamus. Accusantium dicta excepturi laborum. Quasi veniam beatae aliquid ad eligendi eius minus reprehenderit.</p>
+<div class="bg-primary text-light p-5">
+<h2>learn to create Websites</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi at cum tempora laudantium velit dignissimos dolor, eum iure soluta, accusamus, consectetur vero mollitia autem. Nulla autem nostrum numquam voluptate at?</p>
+<a href="#" class="btn btn-success btn-lg">Create Account</a>
+</div>
+</body>
+</html>

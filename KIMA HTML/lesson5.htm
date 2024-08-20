@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson5</title>
+</head>
+<body>
+    <!-- HTML FORMS -->
+    <!-- HTML Forms Are used to Collect data Or Gather User input on a web page -->
+    <!-- HTML forms are defined using <form> tag -->
+        <!-- the <form> tag has an attribute known as actions -defin the action /process/operation to be perfomred
+            when the user clicks on the submit button -->
+            <!-- the user input is sent to the server for processing via the HTTP protocol -->
+            <!-- <input> element is the main element used in HTML forms -->
+            <!-- It has several arguments that can be used to define its properties and behaviour -->
+            <!-- Somee of the attibutes are type,name,placeholder,value,id,required -->
+            <!-- The type attribute defines the type of data/info expected in the input field/element-->
+            <!-- The values for type includes date,time,datetime,password,submit,number,email,button,text,file etc -->
+            <!-- Label-used to create a text description for the formcontrols/input fields -->
+            <!-- some of the attributes ina label are for-links/matches the label with the specific element such that upoon clicking it aactivates the input field -->
+            <!-- placeholder/hint-attribute tells the user the expected details in an input field-->
+            <h2>HTML FORM</h2>
+            <form action="">
+                <!-- fieldset provides a border line around specific section in a form -->
+                <fieldset>
+                    <!-- legend provides heading of a fiedset -->
+                   
+                    <legend><b>Personal Details</b></legend>
+                    <br>
+                    <input required type="text" placeholder="Enter your Name">
+                    <br><br>
+                    <input required type="number" placeholder="Enter ID number">
+                    <br><br>
+                    <input required type="email" placeholder="Enter your Email">
+                    <br><br>
+                    <inputrequired type="password" placeholder="Enter password">
+                    <br><br>
+                    <!-- radio button -->
+                    <label for="">Select Gender</label>
+                    <br>
+                    <input type="radio" name="gender" id="male"> <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female"> <label for="female">Female</label>
+                    <input type="radio" name="gender" id="custom"> <label for="custom">Custom</label>
+                    <br><br>
+                    <label for="">Your DOB</label>
+                    <input type="date">
+                </fieldset>
+                <br>
+               <fieldset>
+                <legend>Other Information</legend>
+                <!-- checkbox -->
+                <label for="">Your Hobbies</label><br>
+                <input type="checkbox" id="Swimming"><label for="Swimming">Swimming</label><br>
+                <input type="checkbox" id="Reading"><label for="Reading">Reading</label><br>
+                <input type="checkbox" id="Travelling"><label for="Travelling">Travelling</label><br>
+                <input type="checkbox" id="Football"><label for="Football">Football</label><br><br>
+                <label for="">Upload a Picture</label><br>
+                <input type="file"><br><br>
+                <caption>Select Course</caption>
+                <!-- select an option -->
+                <select name="" id="">
+                    <option value="">--None--</option>
+                    <option value="">Medicine</option>
+                    <option value="">Engineering</option>
+                    <option value="">Computer Science</option>
+                    <option value="">Information Science</option>
+                    <option value="">Accounting</option>
+                </select>
+
+               </fieldset>
+               <fieldset>
+                <br>
+                <label for="">Leave A Comment</label><br>
+                <!-- text area -->
+                <textarea name="" id="" cols="40" rows="5"></textarea>
+            </fieldset>
+            <input type="submit" value="Make an application"><br><br>
+            <input type="reset"><br><br>
+            <input type="button" value="Confirm">
+
+            </form>
+</body>
+</html>
